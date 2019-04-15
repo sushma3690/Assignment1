@@ -40,7 +40,7 @@ def question_3():
     db.close()
     for percentage, date in res:
         res = str(date).split("-");
-        print(res)
+        
         print(calendar.month_name[int(res[1])]+' '+res[2]+','+res[0] +' --- '+str(percentage)+' errors')
 
 print('On which days did more than 1% of requests lead to errors :')
