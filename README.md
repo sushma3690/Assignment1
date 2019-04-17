@@ -29,4 +29,8 @@ This view contains 5 columns - author name, article title, path of that article 
  1. The program does not expect any user input. 
  2. It expects a valid news database to be present and the _mainview_ mentioned in previous section to be present.
  
+ # Style guidelines
+ 
+ Pep style guide for python has been followed. And the same has been shown in the image ``` pipstyle0error.png``` for reference. 
+ 
  
