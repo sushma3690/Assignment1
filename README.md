@@ -1,6 +1,16 @@
 # Assignment1
 Logs Analysis
 
+# Connecting to the database and importing news database 
+1. You can connect to the database named "new", to check its existence by typing 
+``` psql news```
+2. If not present, you can create the news database by typing
+``` create database news```
+3. Once  psql -d news -f newsdata.sqlyou have the databse you can insert the news data by using below command
+``` psql -d news -f newsdata.sql ```  
+This will copy the news data sql into your database and now we are all set for our assignment.
+
+
 # Creating a sql view for the first two questions of the assignent.
 Please run the below sql in your news db database which creates a view named _mainview_
 
